@@ -34,3 +34,13 @@ class CommandLineStatements:
         {2} = new
     """
     zpool_replace = "sudo zpool replace {0} {1} {2} -f"
+
+    """
+        zfs list command
+    """
+    zfs_list = "sudo zfs list"
+
+    """
+        Disk usage
+    """
+    disk_usage = "df -h"
