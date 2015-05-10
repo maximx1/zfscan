@@ -32,6 +32,15 @@ class CommandLineStatements:
     """
     zpool_replace = "sudo zpool replace {0} {1} {2} -f"
 
+    """zpool import command to show available imports"""
+    zpool_import_list = "sudo zpool import"
+
+    """
+        zpool import command
+        {0} = importable pool
+    """
+    zpool_import = "sudo zpool import {0}"
+
     """zfs list command"""
     zfs_list = "sudo zfs list"
 
