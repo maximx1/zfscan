@@ -1,10 +1,7 @@
-"""
-    Batch of command line statements surrounding zfs
-"""
 class CommandLineStatements:
-    """
-        Checks the disks in the system
-    """
+    """Batch of command line statements surrounding zfs"""
+
+    """Checks the disks in the system"""
     check_disks = "ls -la /dev/disk/by-id"
 
     """
@@ -35,12 +32,8 @@ class CommandLineStatements:
     """
     zpool_replace = "sudo zpool replace {0} {1} {2} -f"
 
-    """
-        zfs list command
-    """
+    """zfs list command"""
     zfs_list = "sudo zfs list"
 
-    """
-        Disk usage
-    """
+    """Disk usage"""
     disk_usage = "df -h"
